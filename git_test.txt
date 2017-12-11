@@ -1,0 +1,17 @@
+		"fieldname" : "empolyee_name",
+				"label" : __("Employee Name"),
+				"fieldtype" : "Link",
+				"width" : "80",
+				"options" : "Employee"
+			},
+			{
+				"fieldname" : "contact_date",
+				"label" : __("Contact Date"),
+				"fieldtype" : "Date",
+			},
+			{
+				"fieldname" : "status",
+				"label" : __("Status"),
+				"fieldtype" : "Select",
+				"options" : "Lead\nOpen\nReplied\nOpportunity\nQuotation\nLost Quotation\nInterested\nInterested\nConverted\nDo Not Contact",
+			},
